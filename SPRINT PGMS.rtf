@@ -1,0 +1,1334 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22000}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9  MENU     DFHMDI SIZE=(24,80)                                            \par
+          DFHMDF POS=(1,1),LENGTH=4,ATTRB=ASKIP,                        X\par
+                INITIAL='AR01'                                           \par
+          DFHMDF POS=(1,6),LENGTH=1,ATTRB=ASKIP                          \par
+          DFHMDF POS=(1,30),LENGTH=16,ATTRB=PROT,                       X\par
+                INITIAL='EMBOSSER DETAILS'                               \par
+ DET      DFHMDF POS=(1,70),LENGTH=08,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='DD/MM/YY'                                       \par
+          DFHMDF POS=(2,32),LENGTH=9,ATTRB=ASKIP,                       X\par
+                INITIAL='MAIN MENU'                                      \par
+          DFHMDF POS=(4,20),LENGTH=23,ATTRB=ASKIP,                      X\par
+                INITIAL='1. ADD EMBOSSER DETAILS'                        \par
+          DFHMDF POS=(5,20),LENGTH=26,ATTRB=ASKIP,                      X\par
+                INITIAL='2. UPDATE EMBOSSER DETAILS'                     \par
+          DFHMDF POS=(6,20),LENGTH=26,ATTRB=ASKIP,                      X\par
+                INITIAL='3. DELETE EMBOSSER DETAILS'                     \par
+          DFHMDF POS=(7,20),LENGTH=7,ATTRB=ASKIP,                       X\par
+                INITIAL='4. EXIT'                                        \par
+          DFHMDF POS=(9,23),LENGTH=7,ATTRB=ASKIP,                       X\par
+                INITIAL='OPTION:'                                        \par
+ OPTN     DFHMDF POS=(9,31),LENGTH=1,ATTRB=(IC,UNPROT),                 X\par
+                HILIGHT=UNDERLINE,INITIAL='X'                            \par
+          DFHMDF POS=(11,1),LENGTH=10,ATTRB=PROT,                       X\par
+                INITIAL=' PF3=EXIT '                                     \par
+ MSGC     DFHMDF POS=(22,02),LENGTH=67,ATTRB=PROT,COLOR=YELLOW,         X\par
+                INITIAL='FOR PROGRAM MESSAGES'                           \par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\fs52 ADD\fs22\par
+\par
+\par
+\par
+\par
+CARDR    DFHMDI SIZE=(24,80)                                            \par
+TRID     DFHMDF POS=(1,1),LENGTH=04,ATTRB=ASKIP,                       X\par
+               INITIAL='ARO2'                                           \par
+         DFHMDF POS=(1,6),LENGTH=01,ATTRB=ASKIP                         \par
+         DFHMDF POS=(1,30),LENGTH=16,ATTRB=ASKIP,                      X\par
+               INITIAL='EMBOSSER DETAILS'                               \par
+DT       DFHMDF POS=(1,70),LENGTH=08,ATTRB=ASKIP,                      X\par
+               INITIAL='MM/DD/YY'                                       \par
+         DFHMDF POS=(2,32),LENGTH=10,ATTRB=ASKIP,                      X\par
+               INITIAL='ADD SCREEN'                                     \par
+         DFHMDF POS=(06,1),LENGTH=03,ATTRB=PROT,COLOR=TURQUOISE,       X\par
+               INITIAL='ORG'                                            \par
+ORG      DFHMDF POS=(06,20),LENGTH=03,ATTRB=(IC,UNPROT,NUM,FSET),      X\par
+               HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+         DFHMDF POS=(06,24),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(07,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='CARD NUMBER'                                    \par
+CARDNM   DFHMDF POS=(07,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+               HILIGHT=UNDERLINE                                        \par
+         DFHMDF POS=(07,40),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(08,1),LENGTH=15,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='ACCOUNT NUMBER'                                 \par
+ACCTNM   DFHMDF POS=(08,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+               HILIGHT=UNDERLINE                                        \par
+         DFHMDF POS=(08,40),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(09,1),LENGTH=13,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EMBOSSER NAME'                                  \par
+EMBSNM   DFHMDF POS=(09,20),LENGTH=30,ATTRB=(UNPROT,FSET),             X\par
+               HILIGHT=UNDERLINE                                        \par
+         DFHMDF POS=(09,51),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(10,1),LENGTH=11,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EXPIRY DATE'                                    \par
+EXPDT    DFHMDF POS=(10,20),LENGTH=06,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(06)',PICOUT='9(06)'           \par
+         DFHMDF POS=(10,27),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(11,1),LENGTH=03,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='CVC'                                            \par
+CVC      DFHMDF POS=(11,20),LENGTH=03,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+         DFHMDF POS=(11,24),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(12,1),LENGTH=14,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EMBOSSER PHONE'                                 \par
+EMBPH    DFHMDF POS=(12,20),LENGTH=10,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(10)',PICOUT='9(10)'           \par
+         DFHMDF POS=(12,31),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(13,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='CREDIT LIMIT'                                   \par
+ CRDLM    DFHMDF POS=(13,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                      \par
+          DFHMDF POS=(13,33),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(14,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CURR BALANCE'                                   \par
+ CURRBL   DFHMDF POS=(14,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                      \par
+          DFHMDF POS=(14,33),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(18,01),LENGTH=80,ATTRB=PROT,                      X\par
+                INITIAL='PF3-MAIN MENUPF5-SAVEPF6-CLEAR DETAILS'         \par
+ MSGR     DFHMDF POS=(21,02),LENGTH=67,ATTRB=PROT,COLOR=YELLOW,         X\par
+                INITIAL='FOR PROGRAM MESSAGES'       \par
+\par
+\par
+\fs52 UPDATE\fs22\par
+\par
+\par
+ CARDS    DFHMDI SIZE=(24,80)                                            \par
+ TRIS     DFHMDF POS=(1,1),LENGTH=04,ATTRB=ASKIP,                       X\par
+                INITIAL='ARO3'                                           \par
+          DFHMDF POS=(1,6),LENGTH=01,ATTRB=ASKIP                         \par
+          DFHMDF POS=(1,30),LENGTH=16,ATTRB=ASKIP,                      X\par
+                INITIAL='EMBOSSER DETAILS'                               \par
+ DTE      DFHMDF POS=(1,70),LENGTH=08,ATTRB=ASKIP,                      X\par
+                INITIAL='MM/DD/YY'                                       \par
+          DFHMDF POS=(2,32),LENGTH=13,ATTRB=ASKIP,                      X\par
+                INITIAL='UPDATE SCREEN'                                  \par
+          DFHMDF POS=(06,1),LENGTH=03,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='ORG'                                            \par
+ ORGS     DFHMDF POS=(06,20),LENGTH=03,ATTRB=(IC,UNPROT,NUM,FSET),      X\par
+                HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+          DFHMDF POS=(06,24),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(07,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CARD NUMBER'                                    \par
+ CARDM    DFHMDF POS=(07,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+                HILIGHT=UNDERLINE                                        \par
+          DFHMDF POS=(07,40),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(08,1),LENGTH=15,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='ACCOUNT NUMBER'                                 \par
+ACCTN    DFHMDF POS=(08,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+               HILIGHT=UNDERLINE                                        \par
+         DFHMDF POS=(08,40),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(09,1),LENGTH=13,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EMBOSSER NAME'                                  \par
+EMBNAM   DFHMDF POS=(09,20),LENGTH=30,ATTRB=(UNPROT,FSET),             X\par
+               HILIGHT=UNDERLINE                                        \par
+         DFHMDF POS=(09,51),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(10,1),LENGTH=11,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EXPIRY DATE'                                    \par
+EXPDAT   DFHMDF POS=(10,20),LENGTH=06,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(06)',PICOUT='9(06)'           \par
+         DFHMDF POS=(10,27),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(11,1),LENGTH=03,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='CVC'                                            \par
+CVCNM    DFHMDF POS=(11,20),LENGTH=03,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+         DFHMDF POS=(11,24),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(12,1),LENGTH=14,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='EMBOSSER PHONE'                                 \par
+EMBPHN   DFHMDF POS=(12,20),LENGTH=10,ATTRB=(NUM,UNPROT,FSET),         X\par
+               HILIGHT=UNDERLINE,PICIN='9(10)',PICOUT='9(10)'           \par
+         DFHMDF POS=(12,31),LENGTH=01,ATTRB=ASKIP                       \par
+         DFHMDF POS=(13,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+               INITIAL='CREDIT LIMIT'                                   \par
+ CRDLMT   DFHMDF POS=(13,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         \par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                     \par
+          DFHMDF POS=(13,33),LENGTH=01,ATTRB=ASKIP                      \par
+          DFHMDF POS=(14,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      \par
+                INITIAL='CURR BALANCE'                                  \par
+ CURBL    DFHMDF POS=(14,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         \par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                     \par
+          DFHMDF POS=(14,33),LENGTH=01,ATTRB=ASKIP                      \par
+          DFHMDF POS=(15,1),LENGTH=11,ATTRB=ASKIP,COLOR=TURQUOISE,      \par
+                INITIAL='OPEN TO BUY'                                   \par
+ OPNBUY   DFHMDF POS=(15,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         \par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                     \par
+          DFHMDF POS=(15,33),LENGTH=01,ATTRB=ASKIP                      \par
+          DFHMDF POS=(18,01),LENGTH=70,ATTRB=PROT,                      \par
+                INITIAL='PF3 - MAIN MENU  PF5 - UPDATE ACCOUNT DETAILS  \par
+                PF6-CLEAR DETAILS'                                      \par
+ MSGS     DFHMDF POS=(21,02),LENGTH=67,ATTRB=PROT,COLOR=YELLOW,         \par
+                INITIAL='FOR PROGRAM MESSAGES'                          \par
+\par
+\par
+\fs56 DELETE\fs22\par
+\par
+\par
+ CARDV    DFHMDI SIZE=(24,80)                                            \par
+ TRIP     DFHMDF POS=(1,1),LENGTH=04,ATTRB=ASKIP,                       X\par
+                INITIAL='ARO4'                                           \par
+          DFHMDF POS=(1,6),LENGTH=01,ATTRB=ASKIP                         \par
+          DFHMDF POS=(1,30),LENGTH=16,ATTRB=ASKIP,                      X\par
+                INITIAL='EMBOSSER DETAILS'                               \par
+ DTS      DFHMDF POS=(1,70),LENGTH=08,ATTRB=ASKIP,                      X\par
+                INITIAL='MM/DD/YY'                                       \par
+          DFHMDF POS=(2,32),LENGTH=13,ATTRB=ASKIP,                      X\par
+                INITIAL='DELETE SCREEN'                                  \par
+          DFHMDF POS=(06,1),LENGTH=03,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='ORG'                                            \par
+ ORGR     DFHMDF POS=(06,20),LENGTH=03,ATTRB=(IC,UNPROT,NUM,FSET),      X\par
+                HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+          DFHMDF POS=(06,24),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(07,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CARD NUMBER'                                    \par
+ CARDE    DFHMDF POS=(07,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+                HILIGHT=UNDERLINE                                        \par
+          DFHMDF POS=(07,40),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(08,1),LENGTH=15,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='ACCOUNT NUMBER'                                 \par
+ ACCTNU   DFHMDF POS=(08,20),LENGTH=19,ATTRB=(UNPROT,FSET),             X\par
+                HILIGHT=UNDERLINE                                        \par
+          DFHMDF POS=(08,40),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(09,1),LENGTH=13,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='EMBOSSER NAME'                                  \par
+ EMBNM    DFHMDF POS=(09,20),LENGTH=30,ATTRB=(UNPROT,FSET),             X\par
+                HILIGHT=UNDERLINE                                        \par
+          DFHMDF POS=(09,51),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(10,1),LENGTH=11,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='EXPIRY DATE'                                    \par
+ EXPDTE   DFHMDF POS=(10,20),LENGTH=06,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICIN='9(06)',PICOUT='9(06)'           \par
+          DFHMDF POS=(10,27),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(11,1),LENGTH=03,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CVC'                                            \par
+ CVCNB    DFHMDF POS=(11,20),LENGTH=03,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICIN='9(03)',PICOUT='9(03)'           \par
+          DFHMDF POS=(11,24),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(12,1),LENGTH=14,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='EMBOSSER PHONE'                                 \par
+ EMPHN    DFHMDF POS=(12,20),LENGTH=10,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICIN='9(10)',PICOUT='9(10)'           \par
+          DFHMDF POS=(12,31),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(13,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CREDIT LIMIT'                                   \par
+ CRLMT    DFHMDF POS=(13,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                      \par
+          DFHMDF POS=(13,33),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(14,1),LENGTH=12,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='CURR BALANCE'                                   \par
+ CURBAL   DFHMDF POS=(14,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                      \par
+          DFHMDF POS=(14,33),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(15,1),LENGTH=11,ATTRB=ASKIP,COLOR=TURQUOISE,      X\par
+                INITIAL='OPEN TO BUY'                                    \par
+ OPBUY    DFHMDF POS=(15,20),LENGTH=12,ATTRB=(NUM,UNPROT,FSET),         X\par
+                HILIGHT=UNDERLINE,PICOUT='9(09).99'                      \par
+          DFHMDF POS=(15,33),LENGTH=01,ATTRB=ASKIP                       \par
+          DFHMDF POS=(18,01),LENGTH=70,ATTRB=PROT,                      X\par
+                INITIAL='PF3- MAIN MENU  PF5- DELETE ACCOUNT PF6- CLEAR X\par
+                DETAILS'                                                 \par
+ MSGV     DFHMDF POS=(21,02),LENGTH=67,ATTRB=PROT,COLOR=YELLOW,         X\par
+                INITIAL='FOR PROGRAM MESSAGES'                           \par
+          DFHMSD TYPE=FINAL                                              \par
+          END             \par
+\par
+\par
+\fs56 MENU PRG\fs22\par
+\par
+\par
+ IDENTIFICATION DIVISION.                                    \par
+ PROGRAM-ID.  A17PGM1.                                       \par
+ ENVIRONMENT DIVISION.                                       \par
+ DATA DIVISION.                                              \par
+ WORKING-STORAGE SECTION.                                    \par
+ 01 WS-COMM-AREA.                                            \par
+     05 WS-DUMMY PIC 9 VALUE 0.                              \par
+ 01 WS-SESS-END  PIC X(78).                                  \par
+ 01 WS-SESS-END-MSG-LENGTH  PIC 9(4) COMP VALUE 78.          \par
+ 01 WS-DATE-TIME  PIC S9(15) COMP-3.                         \par
+ COPY DFHAID.                                                \par
+ COPY A17MPS1.                                               \par
+ LINKAGE SECTION.                                            \par
+ 01 DFHCOMMAREA.                                             \par
+    05 LN-DUMMY PIC 9.                                       \par
+ PROCEDURE DIVISION.                                         \par
+ MAIN-PARA.                                                  \par
+     MOVE LOW-VALUES TO MENUO.                               \par
+     EVALUATE EIBCALEN                                       \par
+         WHEN 0                                              \par
+              CONTINUE                                       \par
+         WHEN 1                                              \par
+              PERFORM CHECK-KEY-PARA                         \par
+         WHEN OTHER                                          \par
+                   MOVE 'INVALID EIBCALEN VALUE' TO MSGCO     \par
+     END-EVALUATE.                      \par
+     PERFORM SEND-MENU-PARA.            \par
+     PERFORM TEMP-TERM-PARA.            \par
+ SEND-MENU-PARA.                        \par
+     PERFORM GET-DATE-PARA.             \par
+     EXEC CICS                          \par
+              SEND MAP('MENU')          \par
+              MAPSET('A17MPS1')         \par
+              ERASE                     \par
+     END-EXEC.                          \par
+ RECEIVE-MENU-PARA.                     \par
+     EXEC CICS                          \par
+              RECEIVE MAP('MENU')       \par
+              MAPSET('A17MPS1')         \par
+     END-EXEC.                          \par
+ PERM-TERM-PARA.                        \par
+     EXEC CICS                          \par
+        RETURN                          \par
+     END-EXEC.                          \par
+ TEMP-TERM-PARA.                        \par
+     EXEC CICS                          \par
+        RETURN                          \par
+        TRANSID('A171')                 \par
+        COMMAREA(WS-COMM-AREA)          \par
+     END-EXEC.                          \par
+ CHECK-KEY-PARA.                        \par
+      EVALUATE EIBAID                                            \par
+         WHEN DFHENTER                                           \par
+              PERFORM RECEIVE-MENU-PARA                          \par
+              PERFORM PROCESS-MENU-PARA                          \par
+         WHEN DFHPF3                                             \par
+              MOVE 'MENU SCREEN TERMINATED PERMANANTLY'          \par
+                 TO WS-SESS-END                                  \par
+              PERFORM SEND-MESSAGE-PARA                          \par
+              PERFORM PERM-TERM-PARA                             \par
+         WHEN OTHER                                              \par
+              MOVE 'INCORRECT PFKEY-PRESS CORRECT PFKEY' TO MSGCO\par
+      END-EVALUATE.                                              \par
+  SEND-MESSAGE-PARA.                                             \par
+      EXEC CICS SEND                                             \par
+          FROM(WS-SESS-END)                                      \par
+          LENGTH(WS-SESS-END-MSG-LENGTH)                         \par
+          ERASE                                                  \par
+      END-EXEC.                                                  \par
+  PROCESS-MENU-PARA.                                             \par
+         EVALUATE OPTNI                                          \par
+                  WHEN 1                                         \par
+                     MOVE 'ADD SCREEN IS SELECTED' TO MSGCO      \par
+                     EXEC CICS                                   \par
+                        XCTL                                     \par
+                        PROGRAM('A17PGM2')                       \par
+                     END-EXEC                                    \par
+                 WHEN 2                                       \par
+                    MOVE 'UPDATE SCREEN IS SELECTED' TO MSGCO \par
+                    EXEC CICS                                 \par
+                       XCTL                                   \par
+                       PROGRAM('A17PGM3')                     \par
+                    END-EXEC                                  \par
+                 WHEN 3                                       \par
+                    MOVE 'DELETE SCREEN IS SELECTED' TO MSGCO \par
+                    EXEC CICS                                 \par
+                       XCTL                                   \par
+                       PROGRAM('A17PGM4')                     \par
+                    END-EXEC                                  \par
+                 WHEN 4                                       \par
+                    MOVE 'MENU SCREEN TERMINATED PERMANENTLY' \par
+                    TO WS-SESS-END                            \par
+                    PERFORM SEND-MESSAGE-PARA                 \par
+                    PERFORM PERM-TERM-PARA                    \par
+                 WHEN OTHER                                   \par
+                      MOVE 'INVALID OPTION ENTERED' TO MSGCO  \par
+        END-EVALUATE.                                         \par
+ GET-DATE-PARA.                                               \par
+        EXEC CICS                                             \par
+             ASKTIME                                          \par
+             ABSTIME(WS-DATE-TIME)                            \par
+        END-EXEC.                                             \par
+        EXEC CICS                                             \par
+           FORMATTIME            \par
+           ABSTIME(WS-DATE-TIME) \par
+           DDMMYY(DETO)          \par
+           DATESEP('/')          \par
+      END-EXEC.                  \par
+\par
+\par
+\fs56 ADD PGM\par
+\fs22   IDENTIFICATION DIVISION.                          \par
+  PROGRAM-ID.  A17PGM2.                             \par
+  ENVIRONMENT DIVISION.                             \par
+  DATA DIVISION.                                    \par
+  WORKING-STORAGE SECTION.                          \par
+  01 WS-COMM-AREA.                                  \par
+      05 WS-DUMMY PIC 9 VALUE 0.                    \par
+  01 WS-SESS-END  PIC X(78).                        \par
+  01 WS-SESS-END-MSG-LENGTH  PIC 9(4) COMP VALUE 78.\par
+  01 WS-DATE-TIME  PIC S9(15) COMP-3.               \par
+  COPY DFHBMSCA.                                    \par
+  COPY DFHAID.                                      \par
+  COPY A17MPS1.                                     \par
+  01 WS-RESPVAR  PIC S9(8) COMP.                    \par
+ *01 CARD-REC.                                      \par
+ *   05 AMED-ORG           PIC 9(03).               \par
+ *   05 AMED-CARD-NBR      PIC X(19).               \par
+ *   05 AMED-ACCNT-NBR     PIC X(19).               \par
+ *   05 AMED-EMBOSS-NAME   PIC X(30).               \par
+ *   05 AMED-EXPIRY.                                \par
+ *      10 D               PIC 99.                  \par
+ *      10 M               PIC 99.                  \par
+ *      10 Y               PIC 99.                  \par
+ *   05 AMED-CVC-NBR       PIC 9(03).               \par
+ *   05 AMED-EMBOSS-PHONE  PIC 9(10).\par
+ *   05 AMED-CRLIM         PIC S9(09)V99.                       \par
+ *   05 AMED-CURR-BAL      PIC S9(09)V99.                       \par
+ *   05 FILLER             PIC X(48).                           \par
+ *01  WS-AMED-CRLIM         PIC S9(09)V99.                      \par
+ *01  WS-AMED-CURR-BAL      PIC S9(09)V99.                      \par
+      EXEC SQL                                                  \par
+          INCLUDE CARD                                          \par
+      END-EXEC.                                                 \par
+      EXEC SQL                                                  \par
+          INCLUDE SQLCA                                         \par
+      END-EXEC.                                                 \par
+  01 WS-VALID-DATA         PIC X VALUE 'Y'.                     \par
+     88 88-VALID           VALUE 'Y'.                           \par
+  LINKAGE SECTION.                                              \par
+  01 DFHCOMMAREA.                                               \par
+     05 LN-DUMMY PIC 9.                                         \par
+  PROCEDURE DIVISION.                                           \par
+  MAIN-PARA.                                                    \par
+      MOVE LOW-VALUES TO CARDRO.                                \par
+      EVALUATE EIBCALEN                                         \par
+          WHEN 0                                                \par
+               MOVE -1 TO ORGL                                  \par
+          WHEN 1                                                \par
+               PERFORM CHECK-KEY-PARA                           \par
+          WHEN OTHER                                            \par
+                    MOVE 'INVALID EIBCALEN VALUE' TO MSGRO      \par
+     END-EVALUATE.                \par
+     PERFORM SEND-CARDR-PARA.     \par
+     PERFORM TEMP-TERM-PARA.      \par
+ SEND-CARDR-PARA.                 \par
+     PERFORM GET-DATE-PARA.       \par
+     MOVE EIBTRNID TO TRIDO.      \par
+     EXEC CICS                    \par
+              SEND MAP('CARDR')   \par
+              MAPSET('A17MPS1')   \par
+              CURSOR              \par
+              ERASE               \par
+     END-EXEC.                    \par
+ RECEIVE-CARDR-PARA.              \par
+     EXEC CICS                    \par
+              RECEIVE MAP('CARDR')\par
+              MAPSET('A17MPS1')   \par
+     END-EXEC.                    \par
+ PERM-TERM-PARA.                  \par
+     EXEC CICS                    \par
+        RETURN                    \par
+     END-EXEC.                    \par
+ TEMP-TERM-PARA.                  \par
+     EXEC CICS                    \par
+        RETURN                    \par
+        TRANSID('A172')           \par
+        COMMAREA(WS-COMM-AREA)    \par
+     END-EXEC.                                                   \par
+ CHECK-KEY-PARA.                                                 \par
+     EVALUATE EIBAID                                             \par
+        WHEN DFHENTER                                            \par
+             PERFORM RECEIVE-CARDR-PARA                          \par
+             PERFORM CHECK-PARA                                  \par
+*            PERFORM READ-CARD-FILE-PARA                         \par
+             PERFORM READ-CARD-TABLE-PARA                        \par
+        WHEN DFHPF3                                              \par
+             EXEC CICS                                           \par
+                XCTL                                             \par
+                PROGRAM('A17PGM1')                               \par
+             END-EXEC                                            \par
+        WHEN DFHPF5                                              \par
+             PERFORM RECEIVE-CARDR-PARA                          \par
+             PERFORM CHECK-VALID-PARA                            \par
+             IF 88-VALID                                         \par
+                  PERFORM WRITE-CARD-FILE-PARA                   \par
+             END-IF                                              \par
+        WHEN DFHPF6                                              \par
+             MOVE LOW-VALUES TO CARDRO                           \par
+        WHEN OTHER                                               \par
+             MOVE 'INCORRECT PFKEY-PRESS CORRECT PFKEY' TO MSGRO \par
+     END-EVALUATE.                                               \par
+ SEND-MESSAGE-PARA.                                              \par
+     EXEC CICS SEND                                              \par
+          FROM(WS-SESS-END)                            \par
+          LENGTH(WS-SESS-END-MSG-LENGTH)               \par
+          ERASE                                        \par
+      END-EXEC.                                        \par
+ *READ-CARD-FILE-PARA.                                 \par
+ *       MOVE ORGI TO AMED-ORG.                        \par
+ *        EXEC CICS                                    \par
+ *               READ                                  \par
+ *               FILE('A17FIL1')                       \par
+ *               RIDFLD(AMED-ORG)                      \par
+ *               INTO(CARD-REC)                        \par
+ *               RESP(WS-RESPVAR)                      \par
+ *        END-EXEC.                                    \par
+ *    EVALUATE WS-RESPVAR                              \par
+ *          WHEN DFHRESP(NORMAL)                       \par
+ *               PERFORM FILE-TO-MAP-PARA              \par
+ *               MOVE 'ORG ALREADY EXISTING' TO MSGRO  \par
+ *               MOVE -1 TO ORGL                       \par
+ *          WHEN DFHRESP(NOTFND)                       \par
+ *               MOVE 'ORG NOT EXISTING' TO MSGRO      \par
+ *               MOVE -1 TO ORGL                       \par
+ *          WHEN OTHER                                 \par
+ *               MOVE 'OTHER ERROR' TO MSGRO           \par
+ *    END-EVALUATE.                                    \par
+  WRITE-CARD-FILE-PARA.                                \par
+        PERFORM MAP-TO-FILE-PARA.                      \par
+         EXEC CICS                                               \par
+                 WRITE                                           \par
+                 FILE('A17FIL2')                                 \par
+                 RIDFLD(AMED-ORG)                                \par
+                 FROM(CARD-REC)                                  \par
+                 RESP(WS-RESPVAR)                                \par
+          END-EXEC.                                              \par
+      EVALUATE WS-RESPVAR                                        \par
+            WHEN DFHRESP(NORMAL)                                 \par
+                 MOVE 'CARD DETAILS ADDED SUCCESSFULLY' TO MSGRO \par
+            WHEN DFHRESP(DUPKEY)                                 \par
+                 MOVE 'CARD ALREADY EXISTING' TO MSGRO           \par
+            WHEN OTHER                                           \par
+                 MOVE 'WRONG DATA ENTERED' TO MSGRO              \par
+      END-EVALUATE.                                              \par
+ * FILE-TO-MAP-PARA.                                             \par
+ *      MOVE AMED-ORG TO ORGO.                                   \par
+ *      MOVE AMED-CARD-NBR TO CARDNMO.                           \par
+ *      MOVE AMED-ACCNT-NBR TO ACCTNMO.                          \par
+ *      MOVE AMED-EMBOSS-NAME TO EMBSNMO.                        \par
+ *      MOVE AMED-EXPIRY TO EXPDTO.                              \par
+ *      MOVE AMED-CVC-NBR TO CVCO.                               \par
+ *      MOVE AMED-EMBOSS-PHONE TO EMBPHO.                        \par
+ *      MOVE AMED-CRLIM TO CRDLMO.                               \par
+ *      MOVE AMED-CURR-BAL TO CURRBLO.                           \par
+   TABLE-TO-MAP-PARA.                                            \par
+        MOVE AMED-ORG OF CARD-REC TO ORGO.             \par
+        MOVE AMED-CARDNBR OF CARD-REC TO CARDNMO.      \par
+        MOVE AMED-ACCTNBR OF CARD-REC TO ACCTNMO.      \par
+        MOVE AMED-EMBOSSNME OF CARD-REC TO EMBSNMO.    \par
+        MOVE AMED-EXPIRY OF CARD-REC TO EXPDTO.        \par
+        MOVE AMED-CVCNBR OF CARD-REC TO CVCO.          \par
+        MOVE AMED-EMBOSSPHN OF CARD-REC TO EMBPHO.     \par
+ *      MOVE AMED-CRLIM TO WS-AMED-CRLIM.              \par
+        MOVE AMED-CRLIM  OF CARD-REC TO CRDLMO.        \par
+        MOVE AMED-CURRBAL OF CARD-REC TO CURRBLO.      \par
+   MAP-TO-FILE-PARA.                                   \par
+        MOVE ORGI TO AMED-ORG.                         \par
+        MOVE CARDNMI TO AMED-CARDNBR.                  \par
+        MOVE ACCTNMI TO AMED-ACCTNBR.                  \par
+        MOVE EMBSNMI TO AMED-EMBOSSNME.                \par
+        MOVE EXPDTI TO AMED-EXPIRY.                    \par
+        MOVE CVCI TO AMED-CVCNBR.                      \par
+        MOVE EMBPHI TO AMED-EMBOSSPHN.                 \par
+        MOVE CRDLMO TO AMED-CRLIM.                     \par
+        MOVE CURRBLO TO AMED-CURRBAL.                  \par
+   GET-DATE-PARA.                                      \par
+          EXEC CICS                                    \par
+               ASKTIME                                 \par
+               ABSTIME(WS-DATE-TIME)                   \par
+          END-EXEC.                                    \par
+          EXEC CICS                                    \par
+               FORMATTIME                               \par
+               ABSTIME(WS-DATE-TIME)                    \par
+               DDMMYYYY(DTO)                            \par
+               DATESEP('/')                             \par
+          END-EXEC.                                     \par
+   CHECK-PARA.                                          \par
+       EVALUATE TRUE                                    \par
+           WHEN ORGL = 0 OR ORGI = SPACES               \par
+               MOVE 'ORG CANNOT BE BLANK' TO MSGRO      \par
+               MOVE -1 TO ORGL                          \par
+       END-EVALUATE.                                    \par
+  CHECK-VALID-PARA.                                     \par
+         EVALUATE TRUE                                  \par
+              WHEN ORGL = 0 OR ORGI = SPACES            \par
+                  MOVE 'ENTER VALUE' TO MSGRO           \par
+                  MOVE -1 TO ORGL                       \par
+                  MOVE 'N' TO WS-VALID-DATA             \par
+              WHEN CARDNML = 0 OR CARDNMI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO           \par
+                  MOVE -1 TO CARDNML                    \par
+                  MOVE 'N' TO WS-VALID-DATA             \par
+              WHEN ACCTNML = 0 OR ACCTNMI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO           \par
+                  MOVE -1 TO ACCTNML                    \par
+                  MOVE 'N' TO WS-VALID-DATA             \par
+              WHEN EMBSNML = 0 OR EMBSNMI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO EMBSNML                  \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+              WHEN EXPDTL = 0 OR EXPDTI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO EXPDTL                   \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+              WHEN CVCL = 0 OR CVCI = SPACES          \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO CVCL                     \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+              WHEN EMBPHL = 0 OR EMBPHI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO EMBPHL                   \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+              WHEN CRDLML = 0 OR CRDLMI = SPACES      \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO CRDLML                   \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+              WHEN CURRBLL = 0 OR CURRBLI = SPACES    \par
+                  MOVE 'ENTER VALUE' TO MSGRO         \par
+                  MOVE -1 TO CURRBLL                  \par
+                  MOVE 'N' TO WS-VALID-DATA           \par
+         END-EVALUATE.                                \par
+  READ-CARD-TABLE-PARA.                               \par
+         MOVE ORGI TO AMED-ORG OF CARD-REC.           \par
+       EXEC SQL                                    \par
+           SELECT ORG,                             \par
+                  CARDNBR,                         \par
+                  ACCTNBR,                         \par
+                  EMBOSSNME,                       \par
+                  EXPIRY,                          \par
+                  CVCNBR,                          \par
+                  EMBOSSPHN,                       \par
+                  CRLIM,                           \par
+                  CURRBAL                          \par
+           INTO :AMED-ORG,                         \par
+                :AMED-CARDNBR,                     \par
+                :AMED-ACCTNBR,                     \par
+                :AMED-EMBOSSNME,                   \par
+                :AMED-EXPIRY,                      \par
+                :AMED-CVCNBR,                      \par
+                :AMED-EMBOSSPHN,                   \par
+                :AMED-CRLIM,                       \par
+                :AMED-CURRBAL                      \par
+           FROM CARD WHERE ORG = :AMED-ORG         \par
+       END-EXEC.                                   \par
+    EVALUATE SQLCODE                               \par
+        WHEN 0                                     \par
+            PERFORM TABLE-TO-MAP-PARA              \par
+            MOVE DFHBMASF TO ORGA                  \par
+            MOVE 'ORG ALREADY EXISTING' TO MSGRO   \par
+            MOVE -1 TO ORGL                    \par
+        WHEN 100                               \par
+            MOVE 'ORG NOT EXISTING' TO MSGRO   \par
+            MOVE -1 TO ORGL                    \par
+        WHEN OTHER                             \par
+            MOVE 'OTHER ERROR' TO MSGRO        \par
+    END-EVALUATE.                              \par
+\par
+\par
+\par
+\fs56 UPDATE PGM\par
+\fs22  IDENTIFICATION DIVISION.                           \par
+ PROGRAM-ID.  A17PGM3.                              \par
+ ENVIRONMENT DIVISION.                              \par
+ DATA DIVISION.                                     \par
+ WORKING-STORAGE SECTION.                           \par
+ 01 WS-ITEMNO    PIC S9(4) COMP VALUE 1.            \par
+ 01 WS-COMM-AREA.                                   \par
+    05 WS-AMED-ORG PIC 9(03).                       \par
+    05 WS-ENTER PIC X VALUE 'N'.                    \par
+ 01 WS-SESS-END  PIC X(78).                         \par
+ 01 WS-SESS-END-MSG-LENGTH  PIC 9(4) COMP VALUE 78. \par
+ 01 WS-DATE-TIME  PIC S9(15) COMP-3.                \par
+ COPY DFHBMSCA.                                     \par
+ COPY DFHAID.                                       \par
+ COPY A17MPS1.                                      \par
+ 01 WS-RESPVAR  PIC S9(8) COMP.                     \par
+ 01 CARD-REC.                                       \par
+    05 AMED-ORG           PIC 9(03).                \par
+    05 AMED-CARD-NBR      PIC X(19).                \par
+    05 AMED-ACCNT-NBR     PIC X(19).                \par
+    05 AMED-EMBOSS-NAME   PIC X(30).                \par
+    05 AMED-EXPIRY.                                 \par
+       10 D               PIC 99.                   \par
+       10 M               PIC 99.                   \par
+       10 Y               PIC 99.                   \par
+    05 AMED-CVC-NBR       PIC 9(03).                     \par
+    05 AMED-EMBOSS-PHONE  PIC 9(10).                     \par
+    05 AMED-CRLIM         PIC 9(09)V99.                  \par
+    05 AMED-CURR-BAL      PIC 9(09)V99.                  \par
+    05 AMED-OPEN-TO-BUY   PIC 9(09)V99.                  \par
+    05 FILLER             PIC X(37) VALUE SPACES.        \par
+ 01 WS-VALID-DATA         PIC X VALUE 'Y'.               \par
+    88 88-VALID           VALUE 'Y'.                     \par
+ LINKAGE SECTION.                                        \par
+ 01 DFHCOMMAREA.                                         \par
+    05 WS-AMED-ORG    PIC 9(03).                         \par
+    05 LN-ENTER    PIC X.                                \par
+ PROCEDURE DIVISION.                                     \par
+ MAIN-PARA.                                              \par
+     MOVE LOW-VALUES TO CARDSO.                          \par
+     EVALUATE EIBCALEN                                   \par
+         WHEN 0                                          \par
+              MOVE -1 TO ORGSL                           \par
+         WHEN 4                                          \par
+              MOVE DFHCOMMAREA TO WS-COMM-AREA           \par
+              PERFORM CHECK-KEY-PARA                     \par
+         WHEN OTHER                                      \par
+                   MOVE 'INVALID EIBCALEN VALUE' TO MSGSO\par
+     END-EVALUATE.                                       \par
+     PERFORM SEND-CARDS-PARA.                            \par
+     PERFORM TEMP-TERM-PARA.                             \par
+ SEND-CARDS-PARA.                     \par
+     PERFORM GET-DATE-PARA.           \par
+     MOVE EIBTRNID TO TRISO           \par
+     EXEC CICS                        \par
+              SEND MAP('CARDS')       \par
+              MAPSET('A17MPS1')       \par
+              CURSOR                  \par
+              ERASE                   \par
+     END-EXEC.                        \par
+ RECEIVE-CARDS-PARA.                  \par
+     EXEC CICS                        \par
+              RECEIVE MAP('CARDS')    \par
+              MAPSET('A17MPS1')       \par
+     END-EXEC.                        \par
+ PERM-TERM-PARA.                      \par
+     EXEC CICS                        \par
+        RETURN                        \par
+     END-EXEC.                        \par
+ TEMP-TERM-PARA.                      \par
+     EXEC CICS                        \par
+        RETURN                        \par
+        TRANSID('A173')               \par
+        COMMAREA(WS-COMM-AREA)        \par
+     END-EXEC.                        \par
+ CHECK-KEY-PARA.                      \par
+     EVALUATE EIBAID                  \par
+          WHEN DFHENTER                                             \par
+               PERFORM RECEIVE-CARDS-PARA                           \par
+               PERFORM CHECK-PARA                                   \par
+               PERFORM READ-CARD-FILE-PARA                          \par
+               MOVE 'Y' TO WS-ENTER                                 \par
+          WHEN DFHPF3                                               \par
+               EXEC CICS                                            \par
+                  XCTL                                              \par
+                  PROGRAM('A17PGM1')                                \par
+               END-EXEC                                             \par
+          WHEN DFHPF5                                               \par
+               IF WS-ENTER = 'Y'                                    \par
+                  PERFORM RECEIVE-CARDS-PARA                        \par
+                  PERFORM CHECK-VALID-PARA                          \par
+                  IF 88-VALID                                       \par
+                    PERFORM MOD-CARD-FILE-PARA                      \par
+                  END-IF                                            \par
+                  MOVE 'N' TO WS-ENTER                              \par
+               ELSE                                                 \par
+                  MOVE 'PLEASE GET CARD DETAILS FIRST BY PRESSING EN\par
+  -                'TER' TO MSGSO                                   \par
+               END-IF                                               \par
+          WHEN DFHPF6                                               \par
+               MOVE LOW-VALUES TO CARDSO                            \par
+               MOVE -1 TO ORGSL                                     \par
+          WHEN OTHER                                                \par
+             MOVE 'INCORRECT PFKEY-PRESS CORRECT PFKEY' TO MSGSO\par
+     END-EVALUATE.                                              \par
+ SEND-MESSAGE-PARA.                                             \par
+     EXEC CICS SEND                                             \par
+         FROM(WS-SESS-END)                                      \par
+         LENGTH(WS-SESS-END-MSG-LENGTH)                         \par
+         ERASE                                                  \par
+     END-EXEC.                                                  \par
+ READ-CARD-FILE-PARA.                                           \par
+        MOVE ORGSI TO AMED-ORG.                                 \par
+         EXEC CICS                                              \par
+                READ                                            \par
+                FILE('A17FIL2')                                 \par
+                RIDFLD(AMED-ORG)                                \par
+                INTO(CARD-REC)                                  \par
+                RESP(WS-RESPVAR)                                \par
+         END-EXEC.                                              \par
+     EVALUATE WS-RESPVAR                                        \par
+           WHEN DFHRESP(NORMAL)                                 \par
+                PERFORM FILE-TO-MAP-PARA                        \par
+                MOVE 'ORG EXISTING' TO MSGSO                    \par
+                MOVE -1 TO ORGSL                                \par
+           WHEN DFHRESP(NOTFND)                                 \par
+                MOVE 'ORG NOT EXISTING' TO MSGSO                \par
+                MOVE -1 TO ORGSL                                \par
+           WHEN OTHER                                           \par
+                MOVE 'OTHER ERROR' TO MSGSO                  \par
+     END-EVALUATE.                                           \par
+ MOD-CARD-FILE-PARA.                                         \par
+       MOVE ORGSI TO AMED-ORG.                               \par
+        EXEC CICS                                            \par
+                READ                                         \par
+                FILE('A17FIL2')                              \par
+                RIDFLD(AMED-ORG)                             \par
+                INTO(CARD-REC)                               \par
+                RESP(WS-RESPVAR)                             \par
+                UPDATE                                       \par
+        END-EXEC.                                            \par
+     EVALUATE WS-RESPVAR                                     \par
+           WHEN DFHRESP(NORMAL)                              \par
+                PERFORM MAP-TO-FILE-PARA                     \par
+                COMPUTE OPNBUYO = AMED-CRLIM - AMED-CURR-BAL \par
+                MOVE OPNBUYO TO AMED-OPEN-TO-BUY             \par
+                PERFORM REWRITE-CARD-FILE-PARA               \par
+           WHEN DFHRESP(NOTFND)                              \par
+                MOVE 'RECORD NOT FOUND' TO MSGSO             \par
+           WHEN OTHER                                        \par
+                MOVE 'OTHER ERROR' TO MSGSO                  \par
+     END-EVALUATE.                                           \par
+  REWRITE-CARD-FILE-PARA.                                    \par
+        EXEC CICS                                            \par
+               REWRITE                                       \par
+               FILE('A17FIL2')                          \par
+               FROM(CARD-REC)                           \par
+               RESP(WS-RESPVAR)                         \par
+        END-EXEC.                                       \par
+     EVALUATE WS-RESPVAR                                \par
+           WHEN DFHRESP(NORMAL)                         \par
+                MOVE 'FILE REWRITE IS SUCC' TO MSGSO    \par
+           WHEN OTHER                                   \par
+                MOVE 'OTHER ERROR IN WRITE' TO MSGSO    \par
+     END-EVALUATE.                                      \par
+  FILE-TO-MAP-PARA.                                     \par
+       MOVE AMED-ORG TO ORGSO.                          \par
+       MOVE AMED-CARD-NBR TO CARDMO.                    \par
+       MOVE AMED-ACCNT-NBR TO ACCTNO.                   \par
+       MOVE AMED-EMBOSS-NAME TO EMBNAMO.                \par
+       MOVE AMED-EXPIRY TO EXPDATO.                     \par
+       MOVE AMED-CVC-NBR TO CVCNMO.                     \par
+       MOVE AMED-EMBOSS-PHONE TO EMBPHNO.               \par
+       MOVE AMED-CRLIM TO CRDLMTO.                      \par
+       MOVE AMED-CURR-BAL TO CURBLO.                    \par
+       MOVE AMED-OPEN-TO-BUY TO OPNBUYO.                \par
+  MAP-TO-FILE-PARA.                                     \par
+       MOVE ORGSI TO AMED-ORG.                          \par
+       MOVE CARDMI TO AMED-CARD-NBR.                    \par
+       MOVE ACCTNI TO AMED-ACCNT-NBR.                   \par
+       MOVE EMBNAMI TO AMED-EMBOSS-NAME.                \par
+       MOVE EXPDATI TO AMED-EXPIRY.                 \par
+       MOVE CVCNMI TO AMED-CVC-NBR.                 \par
+       MOVE EMBPHNI TO AMED-EMBOSS-PHONE.           \par
+       MOVE CRDLMTO TO AMED-CRLIM.                  \par
+       MOVE CURBLO TO AMED-CURR-BAL.                \par
+       MOVE OPNBUYO TO AMED-OPEN-TO-BUY.            \par
+  GET-DATE-PARA.                                    \par
+         EXEC CICS                                  \par
+              ASKTIME                               \par
+              ABSTIME(WS-DATE-TIME)                 \par
+         END-EXEC.                                  \par
+         EXEC CICS                                  \par
+              FORMATTIME                            \par
+              ABSTIME(WS-DATE-TIME)                 \par
+              DDMMYYYY(DTEO)                        \par
+              DATESEP('/')                          \par
+         END-EXEC.                                  \par
+  CHECK-PARA.                                       \par
+      EVALUATE TRUE                                 \par
+          WHEN ORGSL = 0 OR ORGSI = SPACES          \par
+              MOVE 'ORG CANNOT BE BLANK' TO MSGSO   \par
+              MOVE -1 TO ORGSL                      \par
+      END-EVALUATE.                                 \par
+ CHECK-VALID-PARA.                                  \par
+        EVALUATE TRUE                               \par
+             WHEN ORGSL = 0 OR ORGSI = SPACES       \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO ORGSL                   \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN CARDML = 0 OR CARDMI = SPACES     \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO CARDML                  \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN ACCTNL = 0 OR ACCTNI = SPACES     \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO ACCTNL                  \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN EMBNAML = 0 OR EMBNAMI = SPACES   \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO EMBNAML                 \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN EXPDATL = 0 OR EXPDATI = SPACES   \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO EXPDATL                 \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN CVCNML = 0 OR CVCNMI = SPACES     \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO CVCNML                  \par
+                 MOVE 'N' TO WS-VALID-DATA          \par
+             WHEN EMBPHNL = 0 OR EMBPHNI = SPACES   \par
+                 MOVE 'ENTER VALUE' TO MSGSO        \par
+                 MOVE -1 TO EMBPHNL                 \par
+                MOVE 'N' TO WS-VALID-DATA                   \par
+            WHEN CRDLMTL = 0 OR CRDLMTI = SPACES            \par
+                MOVE 'ENTER VALUE' TO MSGSO                 \par
+                MOVE -1 TO CRDLMTL                          \par
+                MOVE 'N' TO WS-VALID-DATA                   \par
+            WHEN CURBLL = 0 OR CURBLI = SPACES              \par
+                MOVE 'ENTER VALUE' TO MSGSO                 \par
+                MOVE -1 TO CURBLL                           \par
+                MOVE 'N' TO WS-VALID-DATA                   \par
+            WHEN OPNBUYL = 0 OR OPNBUYI = SPACES            \par
+                MOVE 'ENTER VALUE' TO MSGSO                 \par
+                MOVE -1 TO OPNBUYL                          \par
+                MOVE 'N' TO WS-VALID-DATA                   \par
+       END-EVALUATE.                                        \par
+\par
+\par
+\par
+\par
+\fs56 DELETE PGM\par
+\fs22\par
+ IDENTIFICATION DIVISION.                              \par
+ PROGRAM-ID.  A17PGM4.                                 \par
+ ENVIRONMENT DIVISION.                                 \par
+ DATA DIVISION.                                        \par
+ WORKING-STORAGE SECTION.                              \par
+ 01 WS-ITEMNO    PIC S9(4) COMP VALUE 1.               \par
+ 01 WS-COMM-AREA.                                      \par
+     05 WS-AMED-ORG PIC 9(03).                         \par
+     05 WS-ENTER    PIC X VALUE 'N'.                   \par
+ 01 WS-SESS-END  PIC X(78).                            \par
+ 01 WS-SESS-END-MSG-LENGTH  PIC 9(4) COMP VALUE 78.    \par
+ 01 WS-DATE-TIME  PIC S9(15) COMP-3.                   \par
+ COPY DFHBMSCA.                                        \par
+ COPY DFHAID.                                          \par
+ COPY A17MPS1.                                         \par
+ 01 WS-RESPVAR  PIC S9(8) COMP.                        \par
+ 01 CARD-REC.                                          \par
+    05 AMED-ORG           PIC 9(03).                   \par
+    05 AMED-CARD-NBR      PIC X(19).                   \par
+    05 AMED-ACCNT-NBR     PIC X(19).                   \par
+    05 AMED-EMBOSS-NAME   PIC X(30).                   \par
+    05 AMED-EXPIRY.                                    \par
+       10 D               PIC 99.                      \par
+       10 M               PIC 99.                      \par
+       10 Y               PIC 99.                      \par
+    05 AMED-CVC-NBR       PIC 9(03).                          \par
+    05 AMED-EMBOSS-PHONE  PIC 9(10).                          \par
+    05 AMED-CRLIM         PIC 9(09)V99.                       \par
+    05 AMED-CURR-BAL      PIC 9(09)V99.                       \par
+    05 AMED-OPEN-TO-BUY   PIC 9(09)V99.                       \par
+    05 FILLER             PIC X(37) VALUE SPACES.             \par
+ 01 WS-VALID-DATA         PIC X VALUE 'Y'.                    \par
+    88 88-VALID           VALUE 'Y'.                          \par
+ LINKAGE SECTION.                                             \par
+ 01 DFHCOMMAREA.                                              \par
+    05 WS-AMED-ORG   PIC 9(03).                               \par
+    05 LN-ENTER      PIC X.                                   \par
+ PROCEDURE DIVISION.                                          \par
+ MAIN-PARA.                                                   \par
+     MOVE LOW-VALUES TO CARDVO.                               \par
+     EVALUATE EIBCALEN                                        \par
+         WHEN 0                                               \par
+              MOVE -1 TO ORGRL                                \par
+         WHEN 4                                               \par
+              MOVE DFHCOMMAREA TO WS-COMM-AREA                \par
+              PERFORM CHECK-KEY-PARA                          \par
+         WHEN OTHER                                           \par
+                   MOVE 'INVALID EIBCALEN VALUE' TO MSGVO     \par
+     END-EVALUATE.                                            \par
+     PERFORM SEND-CARDV-PARA.                                 \par
+     PERFORM TEMP-TERM-PARA.                                  \par
+ SEND-CARDV-PARA.                            \par
+     PERFORM GET-DATE-PARA.                  \par
+     MOVE EIBTRNID TO TRIPO                  \par
+     EXEC CICS                               \par
+              SEND MAP('CARDV')              \par
+              MAPSET('A17MPS1')              \par
+              CURSOR                         \par
+              ERASE                          \par
+     END-EXEC.                               \par
+ RECEIVE-CARDV-PARA.                         \par
+     EXEC CICS                               \par
+              RECEIVE MAP('CARDV')           \par
+              MAPSET('A17MPS1')              \par
+     END-EXEC.                               \par
+ PERM-TERM-PARA.                             \par
+     EXEC CICS                               \par
+        RETURN                               \par
+     END-EXEC.                               \par
+ TEMP-TERM-PARA.                             \par
+     EXEC CICS                               \par
+        RETURN                               \par
+        TRANSID('A174')                      \par
+        COMMAREA(WS-COMM-AREA)               \par
+     END-EXEC.                               \par
+ CHECK-KEY-PARA.                             \par
+     EVALUATE EIBAID                         \par
+        WHEN DFHENTER                                             \par
+             PERFORM RECEIVE-CARDV-PARA                           \par
+             PERFORM CHECK-PARA                                   \par
+             PERFORM READ-CARD-FILE-PARA                          \par
+             MOVE 'Y' TO WS-ENTER                                 \par
+        WHEN DFHPF3                                               \par
+             EXEC CICS                                            \par
+                XCTL                                              \par
+                PROGRAM('A17PGM1')                                \par
+             END-EXEC                                             \par
+        WHEN DFHPF5                                               \par
+             IF WS-ENTER = 'Y'                                    \par
+                PERFORM RECEIVE-CARDV-PARA                        \par
+                PERFORM CHECK-VALID-PARA                          \par
+                IF 88-VALID                                       \par
+                  PERFORM DELETE-CARD-FILE-PARA                   \par
+                END-IF                                            \par
+                MOVE 'N' TO WS-ENTER                              \par
+             ELSE                                                 \par
+                MOVE 'PLEASE GET CARD DETAILS FIRST BY PRESSING EN\par
+-                'TER' TO MSGVO                                   \par
+             END-IF                                               \par
+        WHEN DFHPF6                                               \par
+             MOVE LOW-VALUES TO CARDVO                            \par
+             MOVE -1 TO ORGRL                                     \par
+        WHEN OTHER                                                \par
+             MOVE 'INCORRECT PFKEY-PRESS CORRECT PFKEY' TO MSGVO\par
+     END-EVALUATE.                                              \par
+ SEND-MESSAGE-PARA.                                             \par
+     EXEC CICS SEND                                             \par
+         FROM(WS-SESS-END)                                      \par
+         LENGTH(WS-SESS-END-MSG-LENGTH)                         \par
+         ERASE                                                  \par
+     END-EXEC.                                                  \par
+ READ-CARD-FILE-PARA.                                           \par
+        MOVE ORGRI TO AMED-ORG.                                 \par
+         EXEC CICS                                              \par
+                READ                                            \par
+                FILE('A17FIL2')                                 \par
+                RIDFLD(AMED-ORG)                                \par
+                INTO(CARD-REC)                                  \par
+                RESP(WS-RESPVAR)                                \par
+         END-EXEC.                                              \par
+     EVALUATE WS-RESPVAR                                        \par
+           WHEN DFHRESP(NORMAL)                                 \par
+                PERFORM FILE-TO-MAP-PARA                        \par
+                MOVE 'ORG EXISTING' TO MSGVO                    \par
+                MOVE -1 TO ORGRL                                \par
+           WHEN DFHRESP(NOTFND)                                 \par
+                MOVE 'ORG NOT EXISTING' TO MSGVO                \par
+                MOVE -1 TO ORGRL                                \par
+           WHEN OTHER                                           \par
+                MOVE 'OTHER ERROR' TO MSGVO         \par
+     END-EVALUATE.                                  \par
+ DELETE-CARD-FILE-PARA.                             \par
+       MOVE ORGRI TO AMED-ORG.                      \par
+        EXEC CICS                                   \par
+                DELETE                              \par
+                FILE('A17FIL2')                     \par
+                RIDFLD(AMED-ORG)                    \par
+                RESP(WS-RESPVAR)                    \par
+         END-EXEC.                                  \par
+     EVALUATE WS-RESPVAR                            \par
+           WHEN DFHRESP(NORMAL)                     \par
+                MOVE 'DELETE IS SUCC' TO MSGVO      \par
+           WHEN DFHRESP(NOTFND)                     \par
+                MOVE 'RECORD NOT DELETED' TO MSGVO  \par
+           WHEN OTHER                               \par
+                MOVE 'OTHER ERROR' TO MSGVO         \par
+     END-EVALUATE.                                  \par
+  FILE-TO-MAP-PARA.                                 \par
+       MOVE AMED-ORG TO ORGRO.                      \par
+       MOVE AMED-CARD-NBR TO CARDEO.                \par
+       MOVE AMED-ACCNT-NBR TO ACCTNUO.              \par
+       MOVE AMED-EMBOSS-NAME TO EMBNMO.             \par
+       MOVE AMED-EXPIRY TO EXPDTEO.                 \par
+       MOVE AMED-CVC-NBR TO CVCNBO.                 \par
+       MOVE AMED-EMBOSS-PHONE TO EMPHNO.            \par
+       MOVE AMED-CRLIM TO CRLMTO.            \par
+       MOVE AMED-CURR-BAL TO CURBALO.        \par
+       MOVE AMED-OPEN-TO-BUY TO OPBUYO.      \par
+  MAP-TO-FILE-PARA.                          \par
+       MOVE ORGRI TO AMED-ORG.               \par
+       MOVE CARDEI TO AMED-CARD-NBR.         \par
+       MOVE ACCTNUI TO AMED-ACCNT-NBR.       \par
+       MOVE EMBNMI TO AMED-EMBOSS-NAME.      \par
+       MOVE EXPDTEI TO AMED-EXPIRY.          \par
+       MOVE CVCNBI TO AMED-CVC-NBR.          \par
+       MOVE EMPHNI TO AMED-EMBOSS-PHONE.     \par
+       MOVE CRLMTO TO AMED-CRLIM.            \par
+       MOVE CURBALO TO AMED-CURR-BAL.        \par
+       MOVE OPBUYO TO AMED-OPEN-TO-BUY.      \par
+  GET-DATE-PARA.                             \par
+         EXEC CICS                           \par
+              ASKTIME                        \par
+              ABSTIME(WS-DATE-TIME)          \par
+         END-EXEC.                           \par
+         EXEC CICS                           \par
+              FORMATTIME                     \par
+              ABSTIME(WS-DATE-TIME)          \par
+              DDMMYYYY(DTSO)                 \par
+              DATESEP('/')                   \par
+         END-EXEC.                           \par
+  CHECK-PARA.                                \par
+      EVALUATE TRUE                                     \par
+          WHEN ORGRL = 0 OR ORGRI = SPACES              \par
+              MOVE 'ORG CANNOT BE BLANK' TO MSGVO       \par
+              MOVE -1 TO ORGRL                          \par
+      END-EVALUATE.                                     \par
+ CHECK-VALID-PARA.                                      \par
+        EVALUATE TRUE                                   \par
+             WHEN ORGRL = 0 OR ORGRI = SPACES           \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO ORGRL                       \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN CARDEL = 0 OR CARDEI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO CARDEL                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN ACCTNUL = 0 OR ACCTNUI = SPACES       \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO ACCTNUL                     \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN EMBNML = 0 OR EMBNMI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO EMBNML                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN EXPDTEL = 0 OR EXPDTEI = SPACES       \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO EXPDTEL                     \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN CVCNBL = 0 OR CVCNBI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO CVCNBL                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN EMPHNL = 0 OR EMPHNI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO EMPHNL                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN CRLMTL = 0 OR CRLMTI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO CRLMTL                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN CURBALL = 0 OR CURBALI = SPACES       \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO CURBALL                     \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+             WHEN OPBUYL = 0 OR OPBUYI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGVO            \par
+                 MOVE -1 TO OPBUYL                      \par
+                 MOVE 'N' TO WS-VALID-DATA              \par
+        END-EVALUATE.                                   \par
+\par
+\par
+\par
+\fs56 ADD NRML PGM\par
+\fs22  IDENTIFICATION DIVISION.                            \par
+ PROGRAM-ID.  A17PGM2.                               \par
+ ENVIRONMENT DIVISION.                               \par
+ DATA DIVISION.                                      \par
+ WORKING-STORAGE SECTION.                            \par
+ 01 WS-COMM-AREA.                                    \par
+     05 WS-DUMMY PIC 9 VALUE 0.                      \par
+ 01 WS-SESS-END  PIC X(78).                          \par
+ 01 WS-SESS-END-MSG-LENGTH  PIC 9(4) COMP VALUE 78.  \par
+ 01 WS-DATE-TIME  PIC S9(15) COMP-3.                 \par
+ COPY DFHBMSCA.                                      \par
+ COPY DFHAID.                                        \par
+ COPY A17MPS1.                                       \par
+ 01 WS-RESPVAR  PIC S9(8) COMP.                      \par
+ 01 CARD-REC.                                        \par
+    05 AMED-ORG           PIC 9(03).                 \par
+    05 AMED-CARD-NBR      PIC X(19).                 \par
+    05 AMED-ACCNT-NBR     PIC X(19).                 \par
+    05 AMED-EMBOSS-NAME   PIC X(30).                 \par
+    05 AMED-EXPIRY.                                  \par
+       10 D               PIC 99.                    \par
+       10 M               PIC 99.                    \par
+       10 Y               PIC 99.                    \par
+    05 AMED-CVC-NBR       PIC 9(03).                 \par
+    05 AMED-EMBOSS-PHONE  PIC 9(10).                 \par
+    05 AMED-CRLIM         PIC S9(09)V99.                    \par
+    05 AMED-CURR-BAL      PIC S9(09)V99.                    \par
+    05 FILLER             PIC X(48) VALUE SPACES.           \par
+ 01 WS-VALID-DATA         PIC X VALUE 'Y'.                  \par
+    88 88-VALID           VALUE 'Y'.                        \par
+ LINKAGE SECTION.                                           \par
+ 01 DFHCOMMAREA.                                            \par
+    05 LN-DUMMY PIC 9.                                      \par
+ PROCEDURE DIVISION.                                        \par
+ MAIN-PARA.                                                 \par
+     MOVE LOW-VALUES TO CARDRO.                             \par
+     EVALUATE EIBCALEN                                      \par
+         WHEN 0                                             \par
+              MOVE -1 TO ORGL                               \par
+         WHEN 1                                             \par
+              PERFORM CHECK-KEY-PARA                        \par
+         WHEN OTHER                                         \par
+                   MOVE 'INVALID EIBCALEN VALUE' TO MSGRO   \par
+     END-EVALUATE.                                          \par
+     PERFORM SEND-CARDR-PARA.                               \par
+     PERFORM TEMP-TERM-PARA.                                \par
+ SEND-CARDR-PARA.                                           \par
+     PERFORM GET-DATE-PARA.                                 \par
+     MOVE EIBTRNID TO TRIDO.                                \par
+     EXEC CICS                                              \par
+              SEND MAP('CARDR')                             \par
+              MAPSET('A17MPS1')                          \par
+              CURSOR                                     \par
+              ERASE                                      \par
+     END-EXEC.                                           \par
+ RECEIVE-CARDR-PARA.                                     \par
+     EXEC CICS                                           \par
+              RECEIVE MAP('CARDR')                       \par
+              MAPSET('A17MPS1')                          \par
+     END-EXEC.                                           \par
+ PERM-TERM-PARA.                                         \par
+     EXEC CICS                                           \par
+        RETURN                                           \par
+     END-EXEC.                                           \par
+ TEMP-TERM-PARA.                                         \par
+     EXEC CICS                                           \par
+        RETURN                                           \par
+        TRANSID('A172')                                  \par
+        COMMAREA(WS-COMM-AREA)                           \par
+     END-EXEC.                                           \par
+ CHECK-KEY-PARA.                                         \par
+     EVALUATE EIBAID                                     \par
+        WHEN DFHENTER                                    \par
+             PERFORM RECEIVE-CARDR-PARA                  \par
+             PERFORM CHECK-PARA                          \par
+             PERFORM READ-CARD-FILE-PARA                 \par
+        WHEN DFHPF3                                      \par
+             EXEC CICS                                           \par
+                XCTL                                             \par
+                PROGRAM('A17PGM1')                               \par
+             END-EXEC                                            \par
+        WHEN DFHPF5                                              \par
+             PERFORM RECEIVE-CARDR-PARA                          \par
+             PERFORM CHECK-VALID-PARA                            \par
+             IF 88-VALID                                         \par
+                  PERFORM WRITE-CARD-FILE-PARA                   \par
+             END-IF                                              \par
+        WHEN DFHPF6                                              \par
+             MOVE LOW-VALUES TO CARDRO                           \par
+        WHEN OTHER                                               \par
+             MOVE 'INCORRECT PFKEY-PRESS CORRECT PFKEY' TO MSGRO \par
+     END-EVALUATE.                                               \par
+ SEND-MESSAGE-PARA.                                              \par
+     EXEC CICS SEND                                              \par
+         FROM(WS-SESS-END)                                       \par
+         LENGTH(WS-SESS-END-MSG-LENGTH)                          \par
+         ERASE                                                   \par
+     END-EXEC.                                                   \par
+ READ-CARD-FILE-PARA.                                            \par
+        MOVE ORGI TO AMED-ORG.                                   \par
+         EXEC CICS                                               \par
+                READ                                             \par
+                FILE('A17FIL1')                                  \par
+                RIDFLD(AMED-ORG)                      \par
+                INTO(CARD-REC)                        \par
+                RESP(WS-RESPVAR)                      \par
+         END-EXEC.                                    \par
+     EVALUATE WS-RESPVAR                              \par
+           WHEN DFHRESP(NORMAL)                       \par
+                PERFORM FILE-TO-MAP-PARA              \par
+                MOVE 'ORG ALREADY EXISTING' TO MSGRO  \par
+                MOVE -1 TO ORGL                       \par
+           WHEN DFHRESP(NOTFND)                       \par
+                MOVE 'ORG NOT EXISTING' TO MSGRO      \par
+                MOVE -1 TO ORGL                       \par
+           WHEN OTHER                                 \par
+                MOVE 'OTHER ERROR' TO MSGRO           \par
+     END-EVALUATE.                                    \par
+ WRITE-CARD-FILE-PARA.                                \par
+       PERFORM MAP-TO-FILE-PARA.                      \par
+        EXEC CICS                                     \par
+                WRITE                                 \par
+                FILE('A17FIL2')                       \par
+                RIDFLD(AMED-ORG)                      \par
+                FROM(CARD-REC)                        \par
+                RESP(WS-RESPVAR)                      \par
+         END-EXEC.                                    \par
+     EVALUATE WS-RESPVAR                              \par
+           WHEN DFHRESP(NORMAL)                       \par
+                MOVE 'CARD DETAILS ADDED SUCCESSFULLY' TO MSGRO\par
+           WHEN DFHRESP(DUPKEY)                                \par
+                MOVE 'CARD ALREADY EXISTING' TO MSGRO          \par
+           WHEN OTHER                                          \par
+                MOVE 'WRONG DATA ENTERED' TO MSGRO             \par
+     END-EVALUATE.                                             \par
+  FILE-TO-MAP-PARA.                                            \par
+       MOVE AMED-ORG TO ORGO.                                  \par
+       MOVE AMED-CARD-NBR TO CARDNMO.                          \par
+       MOVE AMED-ACCNT-NBR TO ACCTNMO.                         \par
+       MOVE AMED-EMBOSS-NAME TO EMBSNMO.                       \par
+       MOVE AMED-EXPIRY TO EXPDTO.                             \par
+       MOVE AMED-CVC-NBR TO CVCO.                              \par
+       MOVE AMED-EMBOSS-PHONE TO EMBPHO.                       \par
+       MOVE AMED-CRLIM TO CRDLMO.                              \par
+       MOVE AMED-CURR-BAL TO CURRBLO.                          \par
+  MAP-TO-FILE-PARA.                                            \par
+       MOVE ORGI TO AMED-ORG.                                  \par
+       MOVE CARDNMI TO AMED-CARD-NBR.                          \par
+       MOVE ACCTNMI TO AMED-ACCNT-NBR.                         \par
+       MOVE EMBSNMI TO AMED-EMBOSS-NAME.                       \par
+       MOVE EXPDTI TO AMED-EXPIRY.                             \par
+       MOVE CVCI TO AMED-CVC-NBR.                              \par
+       MOVE EMBPHO TO AMED-EMBOSS-PHONE.                       \par
+       MOVE CRDLMO TO AMED-CRLIM.                              \par
+       MOVE CURRBLO TO AMED-CURR-BAL.                          \par
+  GET-DATE-PARA.                                          \par
+         EXEC CICS                                        \par
+              ASKTIME                                     \par
+              ABSTIME(WS-DATE-TIME)                       \par
+         END-EXEC.                                        \par
+         EXEC CICS                                        \par
+              FORMATTIME                                  \par
+              ABSTIME(WS-DATE-TIME)                       \par
+              DDMMYYYY(DTO)                               \par
+              DATESEP('/')                                \par
+         END-EXEC.                                        \par
+  CHECK-PARA.                                             \par
+      EVALUATE TRUE                                       \par
+          WHEN ORGL = 0 OR ORGI = SPACES                  \par
+              MOVE 'ORG CANNOT BE BLANK' TO MSGRO         \par
+              MOVE -1 TO ORGL                             \par
+      END-EVALUATE.                                       \par
+ CHECK-VALID-PARA.                                        \par
+        EVALUATE TRUE                                     \par
+             WHEN ORGL = 0 OR ORGI = SPACES               \par
+                 MOVE 'ENTER VALUE' TO MSGRO              \par
+                 MOVE -1 TO ORGL                          \par
+                 MOVE 'N' TO WS-VALID-DATA                \par
+             WHEN CARDNML = 0 OR CARDNMI = SPACES         \par
+                 MOVE 'ENTER VALUE' TO MSGRO              \par
+                 MOVE -1 TO CARDNML                       \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN ACCTNML = 0 OR ACCTNMI = SPACES    \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO ACCTNML                  \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN EMBSNML = 0 OR EMBSNMI = SPACES    \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO EMBSNML                  \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN EXPDTL = 0 OR EXPDTI = SPACES      \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO EXPDTL                   \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN CVCL = 0 OR CVCI = SPACES          \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO CVCL                     \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN EMBPHL = 0 OR EMBPHI = SPACES      \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO EMBPHL                   \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN CRDLML = 0 OR CRDLMI = SPACES      \par
+       MOVE 'ENTER VALUE' TO MSGRO         \par
+       MOVE -1 TO CRDLML                   \par
+       MOVE 'N' TO WS-VALID-DATA           \par
+   WHEN CURRBLL = 0 OR CURRBLI = SPACES    \par
+            MOVE 'ENTER VALUE' TO MSGRO      \par
+            MOVE -1 TO CURRBLL               \par
+            MOVE 'N' TO WS-VALID-DATA        \par
+   END-EVALUATE.                                            \par
+\fs56\par
+\fs22                                                                   \par
+\par
+\par
+\par
+\par
+}
+ 
